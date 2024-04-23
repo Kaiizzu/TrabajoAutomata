@@ -119,7 +119,7 @@ def leer_automata() -> Tuple[List[Estado], Estado, str]:
         print("Error encontrado en la línea 3")
         return [], None, ""
 
-    # Ingrese los nombres de los estados finales
+    # Ingrese los nombres de los estados finales (separados por un espacio)
     estados_finales_nombres = input("Ingrese los nombres de los estados finales (separados por espacios): ").split()
     for nombre in estados_finales_nombres:
         if nombre not in estados_nombre:
